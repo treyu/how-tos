@@ -23,7 +23,8 @@ go.
 5. **Change ownership for the repo**: ```sudo chown -R www-data:www-data /home/svn/test```
 
 6. **Add the following between the <VirtualHost> tags in ```/etc/apache2/sites-available/000-default.conf```**:
-  * ```xml
+  *
+```xml
    <Location />
       DAV svn
       SVNParentPath /home/svn/
