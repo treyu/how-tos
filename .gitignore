@@ -1,0 +1,4 @@
+# Ignore .swp and .un files
+*.swp
+*.un*
+*.*~
